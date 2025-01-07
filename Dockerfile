@@ -11,7 +11,7 @@ COPY . .
 RUN npm install -g http-server
 
 # Expose port 8080
-EXPOSE 8080
+EXPOSE 8081
 
-# Jalankan http-server
-CMD ["http-server", "/app", "-p", "8080"]
+    # Jalankan http-server
+CMD ["start"]
